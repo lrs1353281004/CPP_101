@@ -6,9 +6,9 @@ static std::string GetInput_orStr(unsigned short* p_pPosition, int p_nSize)
     char cur_c[3];
     for (int i=0;i<p_nSize;i++)
     {
-        sprintf(cur_c, "%3d", p_pPosition[i]); //Ç°×º²¹Î»
+        sprintf(cur_c, "%3d", p_pPosition[i]); //float 2 str
         std::string cur=cur_c;
-        res +=cur; //×Ö·û´®Æ´½Ó
+        res +=cur; //concat str
     }
 
     return res;
@@ -21,7 +21,7 @@ int main()
     std::cout << res<< std::endl;
     std::cout << res.size()<< std::endl;
     std::string str2;
-    bool flag=res.substr(0,res.size()-5)==str2;  //×Ö·û´®±È½Ï
+    bool flag=res.substr(0,res.size()-5)==str2;  //comare str
     std::cout << flag << std::endl;
     return 0;
 }
