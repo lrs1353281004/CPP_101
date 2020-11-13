@@ -23,7 +23,7 @@ public:
 			{"abc",0.1}
 
 		};
-		RES res={beam,2};
+	RES res={beam,2};
         return res;
     }
 };
