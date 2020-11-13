@@ -21,3 +21,5 @@
 [函数返回结构体数组的指针](https://github.com/lrs1353281004/CPP_101/blob/master/return_array_of_struct.cpp)
 
 [通过定义结构体实现函数返回多个参数](https://github.com/lrs1353281004/CPP_101/blob/master/return_multi_by_struct.cpp)
+
+[float转str,string拼接，string比较](https://github.com/lrs1353281004/CPP_101/blob/master/float_input_2_str.cpp)
