@@ -17,3 +17,5 @@
 [结构体数组，按结构体某一属性排序](https://github.com/lrs1353281004/CPP_101/blob/master/vector_of_struct_sort.cpp)
 
 [栈的基本使用](https://github.com/lrs1353281004/CPP_101/blob/master/stack_test.cpp)
+
+[函数返回结构体数组的指针](https://github.com/lrs1353281004/CPP_101/blob/master/return_array_of_struct.cpp)
