@@ -7,10 +7,15 @@ struct SINGLE_BEAM
     double pre_score;
 };
 
+struct RES
+{
+    SINGLE_BEAM *p;
+    int ans;
+};
 class StrCorrect
 {
 public:
-    SINGLE_BEAM* Beam_Search()
+    RES Beam_Search()
     {
         static SINGLE_BEAM beam[5]=
     	{
@@ -18,18 +23,18 @@ public:
 			{"abc",0.1}
 
 		};
-        return beam;
+		RES res={beam,2};
+        return res;
     }
 };
 
 int main()
 {
     StrCorrect strCor;
-    SINGLE_BEAM *sBeam= strCor.Beam_Search();
-    std::string sResult1=(*(sBeam+1)).pre_str;
-    std::string sResult2=(*(sBeam)).pre_str;
-    std::cout << sResult1 << std::endl;
-    std::cout << sResult2 << std::endl;
+    RES res=strCor.Beam_Search();
+    std::string sResult=(*(res.p)).pre_str;
+    int score=res.ans;
+    std::cout << sResult << std::endl;
+    std::cout << score << std::endl;
     return 0;
 }
-
