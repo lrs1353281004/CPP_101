@@ -19,3 +19,5 @@
 [栈的基本使用](https://github.com/lrs1353281004/CPP_101/blob/master/stack_test.cpp)
 
 [函数返回结构体数组的指针](https://github.com/lrs1353281004/CPP_101/blob/master/return_array_of_struct.cpp)
+
+[通过定义结构体实现函数返回多个参数](https://github.com/lrs1353281004/CPP_101/blob/master/return_multi_by_struct.cpp)
