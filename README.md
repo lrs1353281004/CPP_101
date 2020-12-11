@@ -23,3 +23,5 @@
 [通过定义结构体实现函数返回多个参数](https://github.com/lrs1353281004/CPP_101/blob/master/return_multi_by_struct.cpp)
 
 [float转str,string拼接，string比较](https://github.com/lrs1353281004/CPP_101/blob/master/float_input_2_str.cpp)
+
+[vectors向量数组使用erase方法删除指定元素](https://github.com/lrs1353281004/CPP_101/blob/master/vector_erase_test.cpp)
